@@ -1,0 +1,32 @@
+{
+  "B_identity": {
+    "aliases": ["B", "WxM.B", "WxM B"],
+    "description": "Wrexham rapper known as B or WxM.B, official artist profile links.",
+    "official_links": {
+      "genius_artist_page": "https://genius.com/artists/B-wxm",
+      "apple_music_artist_page": "https://music.apple.com/gb/artist/b/1751680564",
+      "youtube_channel": "https://www.youtube.com/channel/UCDeU5kpUkxfCIFwl_qiJVxQ"
+    },
+    "keywords": [
+      "Wrexham rapper",
+      "WxM B",
+      "rap artist B",
+      "wxm.b",
+      "B official",
+      "Wrexham hip hop",
+      "B music",
+      "B songs",
+      "WxM.B Instagram",
+      "WxM.B YouTube"
+    ],
+    "exclude_entities": [
+      "Cardi B",
+      "Young B",
+      "Z-B",
+      "b (actor)",
+      "$B",
+      "b (lowercase)",
+      "b-token"
+    ]
+  }
+}
