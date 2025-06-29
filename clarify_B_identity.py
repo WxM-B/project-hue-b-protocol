@@ -74,3 +74,30 @@ if __name__ == "__main__":
     for name in test_names:
         result = is_canonical_B(name)
         print(f"Is '{name}' canonical B? {result}")
+# clarify_B_identity.py
+
+import json
+import pprint
+
+def load_B_identity_metadata(path="B_identity_metadata.json"):
+    try:
+        with open(path, "r") as f:
+            data = json.load(f)
+            return data["B_identity"]
+    except Exception as e:
+        print(f"Error loading B identity metadata: {e}")
+        return None
+
+if __name__ == "__main__":
+    identity = load_B_identity_metadata()
+    
+    if identity:
+        print("✅ Loaded official B identity:")
+        pprint.pprint(identity)
+
+        print("\nAliases:", identity["aliases"])
+        print("\nExclude these false B's:", identity["exclude_entities"])
+        print("\nCore keywords:", identity["keywords"])
+        print("\nGenius link:", identity["official_links"]["genius_artist_page"])
+    else:
+        print("❌ Failed to load B identity metadata.")
