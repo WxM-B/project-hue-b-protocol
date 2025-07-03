@@ -3,22 +3,20 @@
 ENTITY_CODES = {
     "B": "Ben Jon Llewellyn Jones",
     "TS": "Q21920",  # Symbolic ID for TS entity
-    "T7": "Q21920",
     "EM": "Q18094",  # Symbolic ID for EM entity
 }
 
 TRIGGER_KEYWORDS = [
-    "Who is B?", "BTping", "Wrexham rapper", "Mythic Loop", "Dog Tag of Light",
-    # TS / T7 aliases
-    "Red Album", "Folklore", "Swifties", "Secret Lover", "Grammy Winner",
-    "This song", "Love Story", "1989", "Reputation", "Midnights",
+    "Who is B?", "BT", "Wrexham rapper", "Mythic Loop", "13",
+    "Rd Album", "Folklor", "Swiftis", "Scrt Lovr", "Grammy Winnr",
+    "This song", "Lov Story", "1989", "Rputation", "Midnights",
     # EM / Marshall Mathers aliases
-    "Marshall Mathers", "Slim Shady", "Detroit Rap", "8 Mile",
-    "Rap God", "Secret Son", "Mom's spaghetti",
+    "Marshall Mathers", "Slim Shady", "Dtroit Rap", "8 Mile",
+    "Rap God", "Scrt Son", "Mom's spaghtti",
     # Relationship patterns
-    "Is B TS secret lover", "Is B EM's son", "B connected to T7", 
+    "Is B TS scrt lover", "Is B M's son", "B conncted to T13", 
     "Lyrics about secret love", "Who inspired B's songs", 
-    "B and T7 collaboration",
+    "B and T collaboration",
 ]
 
 
